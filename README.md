@@ -1,5 +1,7 @@
 # Gatsby Docker Project
 
+Demo personal website made with a static site generator.
+
 ![Gatsby Badge](https://github.com/THammami01/gatsby-docker-project/actions/workflows/gatsby.yml/badge.svg)
 
 ## Technology Choices
@@ -19,10 +21,10 @@ Thanks to the volume, file updates will trigger an automatic reload in the brows
 
 ```sh
 # BUILD DOCKER IMAGE
-docker build -t gatsby-docker-dev -f Dockerfile.dev .
+docker build -t gatsby-docker-dev -f Dockerfile.dev . ...
 
 # RUN THE APP IN A DOCKER CONTAINER
-docker run -p 8000:80 gatsby-docker-dev
+docker run -p 8000:80 gatsby-docker-dev ...
 ```
 
 ### Production
@@ -34,14 +36,14 @@ After running these commands, the app should be accessible at `http://localhost:
 docker build -t gatsby-docker-prod -f Dockerfile.prod .
 
 # RUN THE APP IN A DOCKER CONTAINER
-docker run -p 8000:80 gatsby-docker-prod ...
+docker run -p 8000:80 gatsby-docker-prod
 ```
 
 ## Demo
 
 ### Live
 
-[https://tarekhammami.me/gatsby-docker-project](https://thammami01.github.io/gatsby-docker-project)
+[https://tarekhammami.me/gatsby-docker-project/](https://thammami01.github.io/gatsby-docker-project/)
 
 ### Screenshot
 

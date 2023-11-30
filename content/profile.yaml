@@ -1,0 +1,25 @@
+- profile:
+  initials: TH
+  name: Tarek Hammami
+  profession: Software Developer
+  image: images/profile.png
+  location: Tunisia
+  relocation: true
+  company: Emersio
+  for_hire: true
+  focus: Coding
+  focus_url: https://cv.tarekhammami.me
+  about: |
+    A software developer with expertise in full-stack web development and IT automation with Node.js & Python, driven by a self-taught mindset, passion for programming, and a strong ambition to collaborate with talented people worldwide to make a positive impact.
+  skills:
+    - Node.js
+    - Python
+    - AWS
+  tools:
+    - Ubuntu
+    - VS Code
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10

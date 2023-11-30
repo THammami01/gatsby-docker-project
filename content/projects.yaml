@@ -1,0 +1,8 @@
+- name: Typing Speed Increaser
+  description: A desktop app to practice and improve typing by displaying real time speed as you write, as well as having the ability to change the theme, duration of typing, and adding custom texts.
+  status:
+  tags:
+    - Python
+    - Shelve
+  icon: website
+  image: images/typing-speed-increaser.png

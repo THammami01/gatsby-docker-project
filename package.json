@@ -1,8 +1,13 @@
 {
-  "name": "ssg-docker-project",
+  "name": "gatsby-docker-project",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "author": "Tarek Hammami",
+  "description": "Personal website made with @wkocjan/gatsby-theme-intro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/THammami01/gatsby-docker-project"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "Tarek Hammami",
-  "description": "Demo personal website made with @wkocjan/gatsby-theme-intro Gatsby theme.",
+  "description": "Demo personal website made with a static site generator.",
   "repository": {
     "type": "git",
     "url": "https://github.com/THammami01/gatsby-docker-project"

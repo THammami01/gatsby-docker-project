@@ -16,27 +16,26 @@ The used Jamstack SSG is [Gatsby](https://www.gatsbyjs.com/).
 
 ### Development
 
-After running these commands, the application should be reachable at `http://localhost:8000` while in development mode.
-Thanks to the volume, file updates will trigger an automatic reload in the browser.
+After running the following command, the application should be reachable at `http://localhost:8000` while in development mode. Thanks to the volume, file updates will trigger an automatic reload in the browser.
 
 ```sh
-# BUILD DOCKER IMAGE
-docker build -t gatsby-docker-dev -f Dockerfile.dev . ...
+# RUN THE DEV SERVICE WITH DOCKER COMPOSE
+docker compose up dev --build
 
-# RUN THE APP IN A DOCKER CONTAINER
-docker run -p 8000:80 gatsby-docker-dev ...
+# ONCE DONE, STOP THE SERVICE WITH `CTRL+C` AND CLEAN UP
+docker compose down dev -v --rmi all
 ```
 
 ### Production
 
-After running these commands, the app should be accessible at `http://localhost:8000`.
+After running the following command, the app should be accessible at `http://localhost:8000`.
 
 ```sh
-# BUILD DOCKER IMAGE
-docker build -t gatsby-docker-prod -f Dockerfile.prod .
+# RUN THE PROD SERVICE WITH DOCKER COMPOSE
+docker compose up prod --build
 
-# RUN THE APP IN A DOCKER CONTAINER
-docker run -p 8000:80 gatsby-docker-prod
+# ONCE DONE, STOP THE SERVICE WITH `CTRL+C` AND CLEAN UP
+docker compose down prod -v --rmi all
 ```
 
 ## Demo

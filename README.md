@@ -1,4 +1,4 @@
-# Gatsby Docker Project
+# Jamstack Demo
 
 Demo personal website made with a static site generator.
 
@@ -42,7 +42,7 @@ docker compose down prod -v --rmi all
 
 ### Live
 
-[https://tarekhammami.me/gatsby-docker-project/](https://thammami01.github.io/gatsby-docker-project/)
+[https://tarekhammami.me/jamstack-personal-website-demo/](https://tarekhammami.me/jamstack-personal-website-demo/)
 
 ### Screenshot
 
